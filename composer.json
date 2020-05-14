@@ -1,0 +1,15 @@
+{
+  "name": "mailkitchen/api-wrapper-php",
+  "description": "MailKitchen Public API",
+  "type": "library",
+  "autoload": {
+    "psr-0": {
+      "Mailkitchen": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "guzzlehttp/guzzle": "~6.0|~5.3"
+  },
+  "prefer-stable": true
+}
